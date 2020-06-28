@@ -5,6 +5,8 @@ root.resizable(0,0)
 root.title("Calculator v 2.0")
 root.configure(background = "orange")
 
+
+
 a =StringVar()
 def show(c):
     a.set(a.get() + c)
